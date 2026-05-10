@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments just in
+#case
+
+.venv/
+venv/
+
+#tool-generated output
+*.zip
+MyZipFiles/
+myZipFiles/
+
+# Internal state 
+.backup_state/
+*.json  # ONLY if it's purely runtime state (be careful)
+
+
+
+# IDEs
+.vscode/
+.idea/
+
+# metadata
+*.egg-info/
