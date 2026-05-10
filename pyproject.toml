@@ -1,0 +1,8 @@
+[project]
+name = "ziptool"
+version = "0.1.0"
+description = "Versioned ZIP backup CLI tool"
+requires-python = ">=3.10"
+
+[project.scripts]
+ziptool = "ziptool.main_cli:main"
